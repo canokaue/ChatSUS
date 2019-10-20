@@ -81,8 +81,7 @@ def process_tweets(csv_file, unigrams, bigrams, test_file=True):
     print('\n')
     return tweets
 
-def sentiment_analysis():
-    indata = sys.argv[1]
+def sentiment_analysis(indata):
     print("Predicting: {0}".format(indata))
     np.random.seed(1337)
     unigrams = utils.top_n_words(FREQ_DIST_FILE, UNIGRAM_SIZE)
@@ -102,8 +101,10 @@ def sentiment_analysis():
     
     if predictions[0][1] == 0:
         print("Feedback ruim")
+        return 0
     else:
         print("Feedback bom")
+        return 1
 
 if __name__ == '__main__':
-    sentiment_analysis()
+    sentiment_analysis(sys.argv[1])

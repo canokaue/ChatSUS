@@ -18,7 +18,9 @@ ex: python eval_nn_model.py "Esse é um comentário ruim"
 #Usar como módulo
 
 from eval_nn_model import *
+
 sentiment = sentiment_analysis(string)
 
 sentiment <- 1 se positivo
+
 sentiment <- 0 se negativo

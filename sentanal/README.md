@@ -2,9 +2,9 @@
 
 Uso: 
 
-git clone https://github.com/canokaue/ChatSUS.git
-cd sentanal
-pip install -r requirements
+- git clone https://github.com/canokaue/ChatSUS.git
+- cd sentanal
+- pip install -r requirements
 
 Faça o download dos seguintes arquivos e coloque-os na raíz do diretório
 -modelo: https://drive.google.com/file/d/1xsXQwqJ2M7Obx0h1MtJk3PE4bTy0WGcq/view?usp=sharing
@@ -17,10 +17,8 @@ ex: python eval_nn_model.py "Esse é um comentário ruim"
 
 #Usar como módulo
 
-from eval_nn_model import *
+- from eval_nn_model import *
+- sentiment = sentiment_analysis(string)
 
-sentiment = sentiment_analysis(string)
-
-sentiment <- 1 se positivo
-
-sentiment <- 0 se negativo
+- sentiment <- 1 se positivo
+- sentiment <- 0 se negativo

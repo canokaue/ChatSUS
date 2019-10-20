@@ -1,0 +1,11 @@
+Frase POS
+O médico foi muito atencioso e o atendimento foi muito bom
+O atendimento todo foi muito tranquilo e rápido
+Minha jornada pelo sus melhorou muito minha saúde
+Atendimento tranquilo e pessoas prestativas
+
+Frase NEG
+O atendimento demorou demais
+Nâo consegui ser atendido no dia marcado
+O transporte da minha cidade não estava funcionando
+Não havia equipamentos suficientes para o procedimento
